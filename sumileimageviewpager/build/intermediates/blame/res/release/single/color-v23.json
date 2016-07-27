@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\workspace\\SumileImageViewPager\\imageviewpager\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_color_highlight_material.xml",
+        "source": "D:\\workspace\\SumileImageViewPager\\imageviewpager\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\SumileImageViewPager\\sumileimageviewpager\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_color_highlight_material.xml",
+        "source": "D:\\workspace\\SumileImageViewPager\\sumileimageviewpager\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v23\\abc_color_highlight_material.xml"
+    }
+]
