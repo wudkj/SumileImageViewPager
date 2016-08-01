@@ -23,27 +23,9 @@ public class MainActivity extends AppCompatActivity {
                 urls.add("http://sumile.cn/logo_bird_small.png");
                 urls.add("http://sumile.cn/wp-content/uploads/2016/07/tv_background_padding.png");
                 urls.add("http://sumile.cn/newLogoNoBird.png");
-                urls.add("https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=884806355,1071449062&fm=58");
-                urls.add("https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=1244347184,708622030&fm=58");
 
                 SumileImagePagerActivity.startActivity(MainActivity.this, 0, urls);
             }
         });
-
-
-    }
-
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        switch (requestCode) {
-            case 3:
-                if (data != null) {
-                    ArrayList<String> strs = (ArrayList<String>) data.getSerializableExtra("data");
-                    SumileImagePagerActivity.startActivity(this, 0, strs);
-                }
-                break;
-        }
     }
 }
